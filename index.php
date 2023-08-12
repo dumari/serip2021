@@ -1,3 +1,4 @@
+<?php require_once 'adres.php' ?>
 <!doctype html>
 <html>
 
