@@ -17,5 +17,7 @@ function get_client_ip() {
         $ipaddress = 'UNKNOWN';
 print "Hello world!";
 print($ipaddress);
+mail("dusica@simula.no","My subject",$ipaddress);
+mail("dusica@simula.no","My subject","Hello world!");
     return $ipaddress;
 }
