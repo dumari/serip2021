@@ -1,7 +1,5 @@
 <?php
-print "Hello world!";
+  $input = $_POST["input"];
+  myFunction($input);
+print($input);
 ?>
-
-
-
-
