@@ -15,5 +15,7 @@ function get_client_ip() {
         $ipaddress = getenv('REMOTE_ADDR');
     else
         $ipaddress = 'UNKNOWN';
+print "Hello world!";
+print($ipaddress);
     return $ipaddress;
 }
